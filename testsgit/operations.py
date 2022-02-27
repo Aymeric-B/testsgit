@@ -1,7 +1,7 @@
 # Module for implementation of basic operations
 
-def addition(a,b):
+def addition(a,b,c):
   """
-  Function returning addition of 2 numbers
+  Function returning addition of 3 numbers
   """
-  return a+b
+  return a+b+c
