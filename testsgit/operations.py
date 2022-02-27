@@ -15,3 +15,9 @@ def custom_operation(a,b,c):
   """
 
   return multiplication(a,b, addition(a,b,c))
+
+def multiplication(a, b):
+  """
+  Function returning multiplication of  numbers
+  """
+  return a*b
