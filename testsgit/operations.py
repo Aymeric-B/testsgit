@@ -6,12 +6,12 @@ def addition(a,b,c):
   """
   return a+b+c
 
-def custom_operation(a,b,c):
+def custom_operation(a,b,c,d):
   """
   Our super useful operation
   """
 
-  return multiplication(a,b, addition(a,b,c))
+  return multiplication(d,multiplication(a, addition(a,b,c)))
 
 def multiplication(a, b):
   """
