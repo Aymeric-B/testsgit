@@ -5,3 +5,10 @@ def addition(a,b,c):
   Function returning addition of 3 numbers
   """
   return a+b+c
+
+
+def multiplication(a, b):
+  """
+  Function returning multiplication of  numbers
+  """
+  return a*b
