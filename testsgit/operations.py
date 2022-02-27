@@ -11,7 +11,7 @@ def custom_operation(a,b,c):
   Our super useful operation
   """
 
-  return multiplication(a,b, addition(a,b,c))
+  return multiplication(a, addition(a,b,c))
 
 def multiplication(a, b):
   """
