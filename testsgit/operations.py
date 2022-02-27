@@ -1,8 +1,5 @@
 # Module for implementation of basic operations
 
-from audioop import add
-
-
 def addition(a,b,c):
   """
   Function returning addition of 3 numbers
